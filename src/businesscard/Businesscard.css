@@ -1,0 +1,62 @@
+.business-container {
+    width: 17vw;
+    height: 28vw;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+}
+
+.business-photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17vw;
+    height: 20vw;
+    background: black;
+    z-index: 0;
+    border-radius: 3%;
+}
+
+.business-photo-container img {
+    width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    border-radius: 3%;
+    z-index: 1;
+}
+
+.business-details div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.business-details span {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 0.75vw;
+
+}
+
+.business-details .type {
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+    margin-right: 0.5vw;
+    letter-spacing: 0.1vw;
+    color: rgb(167, 123, 40);
+}
+
+.business-details .score {
+    font-size: 0.8vw;
+    margin-right: 0.5vw;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+.business-details .review-count {
+    margin-right: 0.5vw;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+}
